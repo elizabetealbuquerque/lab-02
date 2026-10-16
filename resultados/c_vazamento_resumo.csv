@@ -1,0 +1,4 @@
+forma,fonte,metrica,incorreto,corrigido,diferenca,unidade,dif_min_max_pp,auc_incorreto,auc_corrigido
+2 - alvo nas entradas,"Red Wine (real): c_treino/c_avaliacao por grupo, de treino+validação B2","acurácia (corte 0,5), média de 5 sementes",0.9937,0.8717,12.2,p.p.,11.01 a 13.52,0.9978,0.8353
+1 - pré-processamento,"Red Wine (real): c_treino/c_avaliacao por grupo, de treino+validação B2","acurácia (corte 0,5), média de 5 sementes",0.873,0.8717,0.13,p.p.,0.00 a 0.63,0.8341,0.8353
+4 - duplicatas,Red Wine (real): divisão por linha vs. por grupo de treino+validação B2,"acurácia (corte 0,5), média de 5 sementes",0.8781,0.8717,0.64,p.p.,-1.49 a 1.95,0.8549,0.8353

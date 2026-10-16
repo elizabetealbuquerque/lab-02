@@ -1,0 +1,6 @@
+,IC95_inf,IC95_sup
+auc_roc,0.8479,0.9296
+revocacao_escolhido,0.4808,0.7674
+precisao_escolhido,0.3684,0.6212
+custo_obs_escolhido,0.1781,0.3344
+custo_obs_05,0.2343,0.4312

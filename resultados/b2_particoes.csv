@@ -1,0 +1,4 @@
+conjunto,linhas,fracao_linhas,positivos,negativos,proporcao_positiva,perfis_distintos,repeticoes_internas
+treino,961,0.601,139,822,0.1446,815,146
+validacao,318,0.1989,33,285,0.1038,272,46
+teste,320,0.2001,45,275,0.1406,272,48

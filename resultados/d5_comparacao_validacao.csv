@@ -1,0 +1,6 @@
+regra,limiar,tp,fp,fn,tn,selecionados,custo_total,custo_medio
+escolhido na validação,0.2766099274158478,24,33,9,252,57,60.0,0.18867924528301888
+"padrão 0,5",0.5,8,12,25,273,20,87.0,0.27358490566037735
+fórmula C_FP/(C_FP+C_FN),0.25,24,35,9,250,59,62.0,0.1949685534591195
+seleciona tudo,0.0,33,285,0,0,318,285.0,0.8962264150943396
+não seleciona nada,inf,0,0,33,285,0,99.0,0.3113207547169811

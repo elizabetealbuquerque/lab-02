@@ -1,0 +1,65 @@
+{
+  "features": [
+    "fixed acidity",
+    "volatile acidity",
+    "citric acid",
+    "residual sugar",
+    "chlorides",
+    "free sulfur dioxide",
+    "total sulfur dioxide",
+    "density",
+    "pH",
+    "sulphates",
+    "alcohol"
+  ],
+  "normalizacao": {
+    "convencao": "z-score, desvio ddof=0, estatísticas do treino",
+    "media": [
+      8.29573361082206,
+      0.5224037460978147,
+      0.2706867845993756,
+      2.543080124869927,
+      0.08767325702393339,
+      15.454734651404786,
+      45.75234131113424,
+      0.9966778772112383,
+      3.309063475546306,
+      0.6606139438085327,
+      10.432032604925427
+    ],
+    "desvio": [
+      1.7030096721994752,
+      0.18085355878671855,
+      0.19176150076600246,
+      1.4018742036509564,
+      0.04744495033055027,
+      10.174148595505665,
+      32.87118232909871,
+      0.0018672607518533657,
+      0.14944140572146658,
+      0.16799093731177783,
+      1.0811622294128063
+    ]
+  },
+  "modelo": "criar_modelo(11, batchnorm=False) — 11→16→ReLU→1; pesos em resultados/modelo_final.pt",
+  "treino": {
+    "otimizador": "Adam lr=0.001",
+    "perda": "BCEWithLogitsLoss sem ponderação",
+    "lote": 64,
+    "max_epocas": 100,
+    "paciencia": 10,
+    "min_delta": 0.0001,
+    "melhor_epoca": 49,
+    "semente": 42
+  },
+  "custos": {
+    "C_FP": 1.0,
+    "C_FN": 3.0,
+    "unidade": "unidades de custo hipotético (u.c.)",
+    "natureza": "hipotéticos"
+  },
+  "limiar_escolhido": 0.2766099274158478,
+  "regra": "positivo se escore >= limiar",
+  "desempate": "maior limiar entre custos mínimos iguais",
+  "limiar_formula": 0.25
+}
